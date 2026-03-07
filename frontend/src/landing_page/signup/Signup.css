@@ -1,0 +1,110 @@
+/* Full page layout */
+
+.signup-container{
+ height:100vh;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ background:linear-gradient(135deg,#f3f6fb,#e6edf7);
+ font-family:"Inter",Arial, Helvetica, sans-serif;
+}
+
+/* Signup card */
+
+.signup-box{
+ width:420px;
+ padding:50px 45px;
+ background:white;
+ border-radius:16px;
+ box-shadow:0 20px 45px rgba(0,0,0,0.08);
+ text-align:center;
+ transition:all 0.3s ease;
+}
+
+/* Hover effect */
+
+.signup-box:hover{
+ transform:translateY(-5px);
+ box-shadow:0 25px 55px rgba(0,0,0,0.12);
+}
+
+/* Heading */
+
+.signup-box h1{
+ font-size:32px;
+ font-weight:600;
+ margin-bottom:8px;
+ color:#222;
+}
+
+/* Subtitle */
+
+.subtitle{
+ color:#6c757d;
+ margin-bottom:30px;
+ font-size:15px;
+}
+
+/* Input fields */
+
+.signup-box input{
+ width:100%;
+ padding:15px;
+ margin-bottom:20px;
+ border-radius:10px;
+ border:1px solid #e3e3e3;
+ font-size:15px;
+ background:#fafafa;
+ transition:all 0.25s ease;
+}
+
+/* Input focus effect */
+
+.signup-box input:focus{
+ border-color:#387ed1;
+ background:white;
+ outline:none;
+ box-shadow:0 0 0 3px rgba(56,126,209,0.15);
+}
+
+/* Signup button */
+
+.signup-box button{
+ width:100%;
+ padding:15px;
+ border:none;
+ border-radius:10px;
+ background:linear-gradient(135deg,#387ed1,#2f6db7);
+ color:white;
+ font-size:16px;
+ font-weight:500;
+ cursor:pointer;
+ transition:all 0.25s ease;
+}
+
+/* Button hover */
+
+.signup-box button:hover{
+ transform:translateY(-2px);
+ box-shadow:0 10px 20px rgba(56,126,209,0.35);
+}
+
+/* Login text */
+
+.login-link{
+ margin-top:22px;
+ font-size:14px;
+ color:#777;
+}
+
+/* Login link */
+
+.login-link a{
+ color:#387ed1;
+ text-decoration:none;
+ font-weight:500;
+}
+
+.login-link a:hover{
+ text-decoration:underline;
+}
