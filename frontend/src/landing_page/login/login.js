@@ -11,7 +11,7 @@ const Login = () => {
   const handleLogin = () => {
 
     axios.post(
-      "https://zerodha-2rqq.onrender.com/",
+      "https://zerodha-2rqq.onrender.com/login",
       {
         email,
         password
