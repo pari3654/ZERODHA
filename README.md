@@ -1,10 +1,9 @@
-# Zerodha Clone – Full Stack Trading Platform
+# Zerodha  – Full Stack Trading Platform
 
 A full-stack trading dashboard inspired by Zerodha that allows users to manage their portfolio, track holdings, view watchlists, and place buy/sell orders.
 
 This project demonstrates full-stack development using React, Node.js, Express, and MongoDB.
 
----
 
 ## Features
 
@@ -27,7 +26,6 @@ This project demonstrates full-stack development using React, Node.js, Express, 
 - Password hashing using **bcrypt**
 - Token-based authentication using **JWT**
 
----
 
 ## Tech Stack
 
@@ -50,7 +48,7 @@ This project demonstrates full-stack development using React, Node.js, Express, 
 - Thunder Client (API testing)
 - GitHub
 
----
+
 
 ## Project Architecture
 
@@ -74,7 +72,7 @@ Backend processes business logic and API requests.
 
 MongoDB stores user data, orders, holdings, and positions.
 
----
+
 
 ## Project Structure
 
@@ -126,8 +124,6 @@ git clone https://github.com/yourusername/zerodha-clone.git
 cd zerodha-clone
 ```
 
----
-
 ### Install Frontend
 
 ```
@@ -136,8 +132,6 @@ npm install
 npm start
 ```
 
----
-
 ### Install Backend
 
 ```
@@ -145,8 +139,6 @@ cd backend
 npm install
 npm start
 ```
-
----
 
 ## Authentication Flow
 
@@ -176,8 +168,6 @@ JWT token generated
 Access to dashboard
 ```
 
----
-
 ## Order Placement Flow
 
 ```
@@ -196,7 +186,6 @@ Order saved in MongoDB
 Dashboard updates
 ```
 
----
 
 ## Charts
 
@@ -206,8 +195,6 @@ Charts are implemented using **react-chartjs-2**.
 - Doughnut Chart for watchlist distribution
 
 These charts help visualize portfolio data.
-
----
 
 ## API Testing
 
@@ -253,9 +240,6 @@ POST /login
 - React state management
 - Data visualization using Chart.js
 
----
 
-
-Your Name
 
 GitHub: https://github.com/yourusername
