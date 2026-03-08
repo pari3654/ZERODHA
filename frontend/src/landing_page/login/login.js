@@ -25,7 +25,7 @@ const Login = () => {
       toast.success("Logged in successfully");
 
       setTimeout(() => {
-        window.location.href = "http://localhost:3001";
+        window.location.href = "https://zerodha-weld.vercel.app/";
       }, 1200);
 
     })
