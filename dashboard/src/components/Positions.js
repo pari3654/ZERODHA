@@ -7,7 +7,7 @@ const Positions = () => {
 
   useEffect(() => {
 
-    axios.get("http://localhost:8080/allPositions",{
+    axios.get("https://zerodha-2rqq.onrender.com/allPositions",{
        withCredentials: true
     })
     .then((res)=>{
