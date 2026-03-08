@@ -206,6 +206,9 @@ const uri = process.env.MONGO_URL;
 //   res.json(allPositions);
 // });
 
+app.get("/", (req, res) => {
+  res.send("Zerodha API running");
+});
 
 // Fetch data for holding model 
 app.get('/allHoldings', auth , async(req , res) => {
