@@ -1,4 +1,4 @@
-# Zerodha  – Full Stack Trading Platform
+# Zerodha  – Full Stack Trading Platform   (https://zerodha-omega-lac.vercel.app/)
 
 A full-stack trading dashboard inspired by Zerodha that allows users to manage their portfolio, track holdings, view watchlists, and place buy/sell orders.
 
