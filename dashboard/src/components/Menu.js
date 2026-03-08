@@ -5,7 +5,6 @@ import axios from "axios";
 const Menu = () => {
 
   const [selectedMenu, setSelectedMenu] = useState(0);
-  const navigate = useNavigate();
 
   const handleMenuClick = (index) => {
     setSelectedMenu(index);
