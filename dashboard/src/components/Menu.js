@@ -13,7 +13,7 @@ const Menu = () => {
   //logout functionality
   const handleLogout = () => {
 
-  axios.post("http://localhost:8080/logout", {}, {
+  axios.post("https://zerodha-2rqq.onrender.com/logout", {}, {
     withCredentials: true
   }).then(() => {
 
