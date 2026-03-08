@@ -10,22 +10,26 @@ const Signup = () => {
 
  //signup function 
 const handleSignup = () => {
-  axios.post("https://zerodha-2rqq.onrender.com//signup", {
-    email,
-    password
-  })
+  axios.post(
+    "https://zerodha-2rqq.onrender.com/signup",
+    {
+      email,
+      password
+    },
+    {
+      withCredentials: true
+    }
+  )
   .then(() => {
     toast.success("Signed up successfully! Login to continue...");
 
     setTimeout(() => {
       window.location.href = "/login";
     }, 1500);
-
   })
   .catch(() => {
     toast.error("Signup failed");
   });
-
 };
 
 
