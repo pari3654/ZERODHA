@@ -10,7 +10,7 @@ const Signup = () => {
 
  //signup function 
 const handleSignup = () => {
-  axios.post("http://localhost:8080/signup", {
+  axios.post("https://zerodha-2rqq.onrender.com//signup", {
     email,
     password
   })
