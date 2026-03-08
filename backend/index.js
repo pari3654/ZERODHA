@@ -21,8 +21,8 @@ app.use(cors({
   origin: [
     "http://localhost:3000",
     "http://localhost:3001",
-    "https://zerodha-omega-lac.vercel.app/",
-    "https://zerodha-weld.vercel.app/"
+    "https://zerodha-omega-lac.vercel.app",
+    "https://zerodha-weld.vercel.app"
   ],
   credentials: true
 }));
@@ -344,8 +344,8 @@ app.post("/login", async (req,res)=>{
 
  res.cookie("token", token, {
   httpOnly: true,
-  sameSite: "lax",
-  secure: false,
+  sameSite: "none",
+  secure: true,
   path: "/"
  });
 
