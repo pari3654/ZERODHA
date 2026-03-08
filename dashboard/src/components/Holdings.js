@@ -10,7 +10,7 @@ const Holdings = () => {
   // Fetch holdings from backend
    useEffect(() => {
 
-  axios.get("http://localhost:8080/allHoldings", {
+  axios.get("https://zerodha-2rqq.onrender.com/allHoldings", {
     withCredentials: true
   })
   .then((res) => {
