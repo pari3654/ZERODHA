@@ -17,7 +17,7 @@ const Menu = () => {
     withCredentials: true
   }).then(() => {
 
-    window.location.href = "https://zerodha-weld.vercel.app/";
+    window.location.href = "https://zerodha-omega-lac.vercel.app/";
 
   });
 
