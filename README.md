@@ -210,8 +210,6 @@ POST /signup
 POST /login
 ```
 
----
-
 ## Challenges Faced
 
 - Integrating frontend with backend APIs
@@ -219,7 +217,6 @@ POST /login
 - Formatting data for Chart.js
 - Managing asynchronous data fetching in React
 
----
 
 ## Future Improvements
 
@@ -228,8 +225,6 @@ POST /login
 - Notifications for order updates
 - Improved security and rate limiting
 - Scalable architecture
-
----
 
 ## What I Learned
 
