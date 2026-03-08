@@ -240,6 +240,3 @@ POST /login
 - React state management
 - Data visualization using Chart.js
 
-
-
-GitHub: https://github.com/yourusername
