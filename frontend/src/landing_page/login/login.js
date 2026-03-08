@@ -11,7 +11,7 @@ const Login = () => {
   const handleLogin = () => {
 
     axios.post(
-      "https://zerodha-weld.vercel.app/",
+      "https://zerodha-2rqq.onrender.com/",
       {
         email,
         password
