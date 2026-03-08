@@ -11,7 +11,7 @@ function Hero() {
       >
         <h5 className="fw-normal mb-0">Support Portal</h5>
         <a
-          href="#"
+          href="javascript:void(0)"
           className="text-decoration-underline fw-normal fs-6 mb-0"
         >
           Track Tickets
@@ -44,16 +44,16 @@ function Hero() {
           />
 
           <div className="d-flex flex-wrap gap-4 small">
-            <a href="#" className="text-decoration-underline">
+            <a href="javascript:void(0)" className="text-decoration-underline">
               Track account opening
             </a>
-            <a href="#" className="text-decoration-underline">
+            <a href="javascript:void(0)" className="text-decoration-underline">
               Track segment activation
             </a>
-            <a href="#" className="text-decoration-underline">
+            <a href="javascript:void(0)" className="text-decoration-underline">
               Intraday margins
             </a>
-            <a href="#" className="text-decoration-underline">
+            <a href="javascript:void(0)" className="text-decoration-underline">
               Kite user manual
             </a>
           </div>
@@ -64,12 +64,12 @@ function Hero() {
           <h4 className="fw-semibold mb-3">Featured</h4>
           <ol className="ps-3 mb-0">
             <li className="mb-2">
-              <a href="#" className="text-decoration-underline">
+              <a href="javascript:void(0)" className="text-decoration-underline">
                 Current Takeovers and Delisting - January 2024
               </a>
             </li>
             <li>
-              <a href="#" className="text-decoration-underline">
+              <a href="javascript:void(0)" className="text-decoration-underline">
                 Latest Intraday leverages - MIS & CO
               </a>
             </li>
