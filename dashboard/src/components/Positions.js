@@ -7,8 +7,6 @@ const Positions = () => {
 
   useEffect(() => {
 
-    const token = localStorage.getItem("token");
-
     axios.get("http://localhost:8080/allPositions",{
        withCredentials: true
     })
