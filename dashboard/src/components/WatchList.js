@@ -1,8 +1,6 @@
 // React hooks for state and context
 import React, { useState, useContext } from "react";
 
-// Axios (future backend/API use ke liye)
-import axios from "axios";
 
 // Global context to communicate with Buy/Sell window
 import GeneralContext from "./GeneralContext";
