@@ -17,7 +17,7 @@ function Hero() {
 
         <button
         className="btn btn-primary fs-5 px-4 py-2 mb-5"
-        // style={{ width: "20%", margin: "0 auto" }}
+         style={{ width: "250px" }}
        onClick={() => window.location.href = "http://localhost:3000/signup"}
         >
        Signup Now
