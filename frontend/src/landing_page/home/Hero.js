@@ -19,7 +19,6 @@ function Hero() {
     <button
     className="btn btn-primary fs-5 px-4 py-2 mb-5"
     style={{ width: "250px" }}
-    onClick={() => window.location.href = "https://zerodha-2rqq.onrender.com/signup"}
     >
     Signup Now
   </button>
