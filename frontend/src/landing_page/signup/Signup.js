@@ -11,7 +11,7 @@ const Signup = () => {
  //signup function 
 const handleSignup = () => {
   axios.post(
-    "https://zerodha-2rqq.onrender.com/signup",
+   "https://zerodha-2rqq.onrender.com/signup",
     {
       email,
       password
