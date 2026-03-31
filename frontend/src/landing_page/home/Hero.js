@@ -15,13 +15,15 @@ function Hero() {
           more
         </p>
 
-        <button
-        className="btn btn-primary fs-5 px-4 py-2 mb-5"
-         style={{ width: "250px" }}
-       onClick={() => window.location.href = "http://localhost:3000/signup"}
-        >
-       Signup Now
-      </button>
+     <div className="text-center">
+    <button
+    className="btn btn-primary fs-5 px-4 py-2 mb-5"
+    style={{ width: "250px" }}
+    onClick={() => window.location.href = "http://localhost:3000/signup"}
+    >
+    Signup Now
+  </button>
+</div>
       
       </div>
     </div>
